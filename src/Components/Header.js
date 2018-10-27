@@ -8,9 +8,9 @@ const H = styled.h1`
 class Header extends Component {
   render(){
     return (
-      <div>
+      <a href="https://github.com/mild20091931/learn-firebase">
         <H>{this.props.title}</H>
-      </div>
+      </a>
     )
   }
 }
