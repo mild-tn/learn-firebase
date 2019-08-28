@@ -25,7 +25,6 @@ class Message extends Component {
   }
 
   render() {
-    console.log('TEst props', this.props.db.database().ref('/messages'))
     return (
       <Col span={6}>
       <CardStyle>
