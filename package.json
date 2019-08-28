@@ -1,33 +1,36 @@
 {
-  "name": "learningself",
+  "name": "frontend",
   "version": "0.1.0",
   "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
   "dependencies": {
+    "@zeit/next-typescript": "^1.1.1",
+    "@zeit/next-css": "^1.0.1",
+    "next-compose-plugins": "^2.1.1",
+    "next": "9.0.3",
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0",
+    "react-scripts": "3.0.1",
+    "react-test-renderer": "^16.9.0",
+    "rebass": "^4.0.2",
+    "styled-components": "^4.3.2",
+    "styled-system": "^5.1.1",
+    "trim": "0.0.1",
     "@rebass/preset": "^4.0.5",
     "antd": "^3.22.2",
     "emotion-theming": "^10.0.14",
-    "firebase": "^6.4.2",
-    "react": "^16.9.0",
-    "react-dom": "^16.9.0",
-    "react-router-dom": "^5.0.1",
-    "react-scripts": "3.1.1",
-    "rebass": "^4.0.5",
-    "styled-components": "^4.0.2",
-    "trim": "0.0.1"
+    "firebase": "^6.4.2"
   },
-  "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
-  },
-  "eslintConfig": {
-    "extends": "react-app"
-  },
-  "browserslist": [
-    ">0.2%",
-    "not dead",
-    "not ie <= 11",
-    "not op_mini all"
-  ]
+  "devDependencies": {
+    "@storybook/react": "^5.1.11",
+    "@types/next": "^7.0.6",
+    "@types/react": "^16.7.20",
+    "@types/react-dom": "^16.0.11",
+    "dotenv": "^6.0.0",
+    "next-compose": "^0.0.2"
+  }
 }
