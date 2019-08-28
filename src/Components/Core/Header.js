@@ -8,7 +8,7 @@ const H = styled.h1`
 class Header extends Component {
   render(){
     return (
-      <a href="https://github.com/mild20091931/learn-firebase">
+      <a href="https://your-note.netlify.com">
         <H>{this.props.title}</H>
       </a>
     )

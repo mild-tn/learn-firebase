@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
 import './App.css';
-import MessageList from './Components/MessageList';
-import MessageBox from './Components/MessageBox';
+import MessageList from './Components/Core/MessageList';
+import MessageBox from './Components/Core/MessageBox';
 import firebase from 'firebase';
 import { Row, Col } from 'antd';
-import Header from './Components/Header';
+import Header from './Components/Core/Header';
 import styled from 'styled-components';
 
 const Nav = styled.nav`

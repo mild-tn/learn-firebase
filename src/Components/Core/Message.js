@@ -16,7 +16,6 @@ class Message extends Component {
   constructor(props) {
     super(props);
     this.onClickDelete = this.onClickDelete.bind(this);
-
   }
 
   onClickDelete(e) {
@@ -26,6 +25,7 @@ class Message extends Component {
   }
 
   render() {
+    console.log('TEst props', this.props.db.database().ref('/messages'))
     return (
       <Col span={6}>
       <CardStyle>
