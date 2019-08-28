@@ -1,5 +1,3 @@
 Learning firebase
 
-Demo : https://learning-firebase.netlify.com/
-
-
+Demo : https://your-note.netlify.com/yournote
