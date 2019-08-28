@@ -10,12 +10,7 @@ export default class index extends Component {
     const {firebase} = this.props
     return (
       <Fragment>
-        <Nav>
-          <Col span={1} />
-          <Col span={11}>
-            <Nav title="Your note." />
-          </Col>
-        </Nav>
+        <Nav/>
         <Row>
           <Col span={2} />
           <Col>

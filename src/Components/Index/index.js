@@ -1,11 +1,11 @@
 import React, { Component } from 'react'
+import Nav from '../Core/Nav'
 
-
-export default class Login extends Component {
+export default class index extends Component {
   render() {
     return (
       <div>
-        Login
+        <Nav/>
       </div>
     )
   }
