@@ -21,7 +21,7 @@
     "rebass": "^4.0.2",
     "styled-components": "^4.3.2",
     "styled-system": "^5.1.1",
-    "trim": "0.0.1",
+    "trim": "0.0.3",
     "@rebass/preset": "^4.0.5",
     "antd": "^3.22.2",
     "emotion-theming": "^10.0.14",
